@@ -59,9 +59,9 @@
 
     </header>
     <!-- header content area -->
-    <div class="container-width lg:h-[550px] items-center lg:flex">
+    <div class="container-width lg:h-[550px] items-center lg:flex md:flex">
 
-        <div class="lg:w-1/2 space-y-4 py-12">
+        <div class="lg:w-1/2 md:w-1/2 space-y-4 py-12">
             <h2 class="text-3xl font-bold">Hi there</h2>
             <h1 class="text-5xl font-bold">I'm <span
                     class="bg-gradient-to-r from-purple-500 to-indigo-500 bg-clip-text text-transparent">Faisal
@@ -70,17 +70,17 @@
                 satisfactioned design. let's connect with me. I'm an architect. I will made for you most comfortable and
                 satisfactioned design. let's connect with me.</p>
             <div class="space-x-4">
+                <button 
+                    class="btn  text-lg border-2 hover:bg-gradient-to-r from-purple-500 to-indigo-500 bg-white hover:text-white  hover:border-indigo-400 border-indigo-400 text-black"><a href="assets/Faisal Ahmmed.pdf" target="_blank">Resume</a></button>
                 <button
-                    class="btn  text-lg border-2 hover:bg-gradient-to-r from-purple-500 to-indigo-500 bg-white hover:text-white  hover:border-indigo-400 border-indigo-400 text-black">Resume</button>
-                <button
-                    class="btn  text-lg border-2 hover:bg-gradient-to-r from-purple-500 to-indigo-500 bg-white hover:text-white  hover:border-indigo-400 border-indigo-400 text-black">Contact
-                    me</button>
+                    class="btn  text-lg border-2 hover:bg-gradient-to-r from-purple-500 to-indigo-500 bg-white hover:text-white  hover:border-indigo-400 border-indigo-400 text-black"><a href="#contact-me-footer">Contact
+                    me</a></button>
 
             </div>
 
         </div>
         <!-- small img -->
-        <div class="lg:w-1/2 flex justify-center items-center h-full relative">
+        <div class="lg:w-1/2 md:w-1/2 flex justify-center items-center h-full relative">
             <div id="faisal-image" class="w-[260px] h-[260px] rounded-full border-8 border-white shadow-2xl bg-white ">
             </div>
             <div class="hidden lg:block">
@@ -99,13 +99,14 @@
     </div>
 
 
+
     <!-- skills part -->
     <div class="container-width">
 
         <h1 class="text-4xl font-bold text-center mt-32 mb-5 tracking-wider">SKILLS</h1>
         <P class="text-center text-gray-500 m-auto ">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
             Voluptatem tempora doloremque aperiam quia repellat hic deleniti animi eum dolorem corrupti.</P>
-        <div class="container-width lg:flex mt-6  justify-center lg:gap-24  space-y-4">
+        <div class="lg:-w-[80%] md:w-[100%] md:flex md:items-center mt-6  flex flex-col lg:flex-row lg:justify-center items-center lg:gap-20 md:gap-3  space-y-4">
             <!-- card 1 -->
             <div
                 class="w-[260px] h-[230px] bg-white shadow-in-box border rounded-3xl space-y-3 p-5 pt-5 cursor-pointer">
@@ -144,11 +145,11 @@
 
 
         </div>
-        <div class="container-width lg:flex justify-center gap-24 mt-4 space-y-4">
+        <div class="lg:-w-[80%] md:w-[100%] md:flex md:items-center lg:mt-8  flex flex-col lg:flex-row lg:justify-center items-center lg:gap-20 md:gap-3  space-y-4">
 
             <!-- card 4 -->
             <div
-                class=" cursor-pointer w-[260px] h-[230px] bg-white shadow-in-box border rounded-3xl space-y-3 p-5 pt-6">
+                class=" cursor-pointer w-[260px] h-[230px] bg-white shadow-in-box border rounded-3xl space-y-3 p-5 pt-6 mt-4">
                 <div class="flex justify-center"><img class="w-[75px]" src="assets/sketchUp.png" alt=""></div>
                 <div class="space-y-2">
                     <h3 class="text-center text-2xl font-bold">SKETCH UP</h3>
@@ -344,9 +345,9 @@
                 <li>photoshop design</li>
             </ul>
             <p>Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.</p>
-            <button
-                class="btn  text-lg border-2 hover:bg-gradient-to-r from-purple-500 to-indigo-500 bg-white hover:text-white  hover:border-indigo-400 border-indigo-400 text-black">Contact
-                me</button>
+            <a href="#contact-me-footer"><button 
+                class="btn w-full  text-lg border-2 hover:bg-gradient-to-r from-purple-500 to-indigo-500 bg-white hover:text-white  hover:border-indigo-400 border-indigo-400 text-black">Contact
+                me</button></a>
         </div>
     </div>
 
@@ -469,15 +470,14 @@
             </div>
             <div class="lg:w-[40%] h-full">
                 <div>
-                    <form action="" class="space-y-3 flex flex-col lg:items-end items-center justify-center mt-6">
+                    <form action="mailto:ayeshasiddika777697@gmail.com" class="space-y-3 flex flex-col lg:items-end items-center justify-center mt-6">
 
-                        <input class=" py-4 w-[80%] rounded-xl px-4 shadow-lg" placeholder="Enter Your Email"
+                        <input class=" py-4 w-[80%] rounded-xl px-4 shadow-lg" required placeholder="Enter Your Email"
                             type="email" name="" id="">
-                        <textarea class="py-4 w-[80%] rounded-xl px-4 shadow-lg" placeholder="Write Your Message" id=""
+                        <textarea class="py-4 w-[80%] rounded-xl px-4 shadow-lg" required placeholder="Write Your Message" id=""
                             cols="50" rows="5"></textarea>
-                        <button
-                            class="btn  text-lg border-2 hover:bg-gradient-to-r from-purple-500 to-indigo-500 bg-white hover:text-white  hover:border-indigo-400 border-indigo-400 text-black">Contact
-                            Me</button>
+                        <button id="contact-me-footer"
+                            class="btn  text-lg border-2 hover:bg-gradient-to-r from-purple-500 to-indigo-500 bg-white hover:text-white  hover:border-indigo-400 border-indigo-400 text-black"><a href="">Send Message</a></button>
                     </form>
                 </div>
             </div>
