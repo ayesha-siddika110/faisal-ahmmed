@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,132 +16,176 @@
     <script src="https://cdn.tailwindcss.com"></script>
 
     <!-- font awesome cdn -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <style>
-        .container-width{
+        .container-width {
             width: 80%;
             margin: auto;
         }
-        #faisal-image{
+
+        #faisal-image {
             background-image: url('./assets/faisal.jpg');
             background-size: contain;
             background-repeat: no-repeat;
-            
+
         }
-        .shadow-in-box{
+
+        .shadow-in-box {
             box-shadow: -3px -3px 7px #ffff,
-            3px 3px 5px #ceced1;
+                3px 3px 5px #ceced1;
         }
-        
+
+        /* hover img */
     </style>
 
 </head>
+
 <body class="">
     <header class="h-20 bg-slate-100">
         <div class="w-[80%] h-20 m-auto flex items-center justify-between">
-            <div class="text-3xl font-bold bg-gradient-to-r from-purple-500 to-indigo-500 bg-clip-text text-transparent">Faisal<span class="text-black">.</span>A</div>
+            <div
+                class="text-3xl font-bold bg-gradient-to-r from-purple-500 to-indigo-500 bg-clip-text text-transparent">
+                Faisal<span class="text-black">.</span>A</div>
             <div class="space-x-2">
                 <i class="fa-brands fa-facebook text-xl text-blue-600"></i>
                 <i class="fa-brands fa-telegram text-xl text-blue-400"></i>
                 <i class="fa-brands fa-whatsapp text-xl text-green-400"></i>
-                <button class="btn  text-lg border-2 hover:bg-gradient-to-r from-purple-500 to-indigo-500 bg-white hover:text-white  hover:border-indigo-400 border-indigo-400 text-black">Resume</button>
+                <button
+                    class="btn  text-lg border-2 hover:bg-gradient-to-r from-purple-500 to-indigo-500 bg-white hover:text-white  hover:border-indigo-400 border-indigo-400 text-black">Resume</button>
             </div>
         </div>
 
     </header>
     <!-- header content area -->
-    <div class="border container-width h-[550px] items-center flex">
+    <div class="container-width lg:h-[550px] items-center lg:flex">
 
-        <div class="w-1/2 space-y-4 py-12">
+        <div class="lg:w-1/2 space-y-4 py-12">
             <h2 class="text-3xl font-bold">Hi there</h2>
-            <h1 class="text-5xl font-bold">I'm <span class="bg-gradient-to-r from-purple-500 to-indigo-500 bg-clip-text text-transparent">Faisal Ahmmed</span></h1>
-            <p class="text-base text-gray-600 pr-10">I'm an architect. I will made for you most comfortable and satisfactioned design. let's connect with me. I'm an architect. I will made for you most comfortable and satisfactioned design. let's connect with me.</p>
+            <h1 class="text-5xl font-bold">I'm <span
+                    class="bg-gradient-to-r from-purple-500 to-indigo-500 bg-clip-text text-transparent">Faisal
+                    Ahmmed</span></h1>
+            <p class="text-base text-gray-600 pr-10">I'm an architect. I will made for you most comfortable and
+                satisfactioned design. let's connect with me. I'm an architect. I will made for you most comfortable and
+                satisfactioned design. let's connect with me.</p>
             <div class="space-x-4">
-                <button class="btn  text-lg border-2 hover:bg-gradient-to-r from-purple-500 to-indigo-500 bg-white hover:text-white  hover:border-indigo-400 border-indigo-400 text-black">Resume</button>
-                <button class="btn  text-lg border-2 hover:bg-gradient-to-r from-purple-500 to-indigo-500 bg-white hover:text-white  hover:border-indigo-400 border-indigo-400 text-black">Contact me</button>
-            
+                <button
+                    class="btn  text-lg border-2 hover:bg-gradient-to-r from-purple-500 to-indigo-500 bg-white hover:text-white  hover:border-indigo-400 border-indigo-400 text-black">Resume</button>
+                <button
+                    class="btn  text-lg border-2 hover:bg-gradient-to-r from-purple-500 to-indigo-500 bg-white hover:text-white  hover:border-indigo-400 border-indigo-400 text-black">Contact
+                    me</button>
+
             </div>
-            
+
         </div>
         <!-- small img -->
-        <div class="w-1/2 flex justify-center items-center h-full relative">
+        <div class="lg:w-1/2 flex justify-center items-center h-full relative">
             <div id="faisal-image" class="w-[260px] h-[260px] rounded-full border-8 border-white shadow-2xl bg-white ">
             </div>
-            <div class="">
-                <img class="w-12 absolute left-[45%] top-[8%] rotate-12 opacity-40" src="./assets/3dsMax (2).png" alt="">
+            <div class="hidden lg:block">
+                <img class="w-12 absolute left-[45%] top-[8%] rotate-12 opacity-40" src="./assets/3dsMax (2).png"
+                    alt="">
                 <img class="w-20 absolute right-[10%] bottom-[10%] opacity-60" src="./assets/autocad.png" alt="">
-                <img class="w-10 absolute right-[8%] top-[30%] -rotate-12 opacity-55" src="./assets/lumion (2).png" alt="">
-                <img class="w-24 absolute left-[15%] bottom-[8%] rotate-12 opacity-60" src="./assets/photoshop.png" alt="">
+                <img class="w-10 absolute right-[8%] top-[30%] -rotate-12 opacity-55" src="./assets/lumion (2).png"
+                    alt="">
+                <img class="w-24 absolute left-[15%] bottom-[8%] rotate-12 opacity-60" src="./assets/photoshop.png"
+                    alt="">
                 <img class="w-16 absolute left-[10%] top-[30%] rotate-12 opacity-40" src="./assets/sketchUp.png" alt="">
 
             </div>
-            
+
         </div>
     </div>
 
 
     <!-- skills part -->
-     <div>
+    <div class="container-width">
 
-         <h1 class="text-4xl font-bold text-center mt-32 mb-5 tracking-wider">SKILLS</h1>
-         <P class="text-center text-gray-500 w-[550px] m-auto ">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatem tempora doloremque aperiam quia repellat hic deleniti animi eum dolorem corrupti.</P>
-         <div class="container-width flex mt-6 mb-6 justify-center gap-24">
+        <h1 class="text-4xl font-bold text-center mt-32 mb-5 tracking-wider">SKILLS</h1>
+        <P class="text-center text-gray-500 m-auto ">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            Voluptatem tempora doloremque aperiam quia repellat hic deleniti animi eum dolorem corrupti.</P>
+        <div class="container-width lg:flex mt-6  justify-center lg:gap-24  space-y-4">
             <!-- card 1 -->
-            <div class="w-[260px] h-[230px] bg-white shadow-in-box border rounded-3xl space-y-3 p-5 pt-5 cursor-pointer">
+            <div
+                class="w-[260px] h-[230px] bg-white shadow-in-box border rounded-3xl space-y-3 p-5 pt-5 cursor-pointer">
                 <div class="flex justify-center"><img class="w-[50px]" src="assets/3dsMax (2).png" alt=""></div>
-                <div  class="space-y-2"><h3 class="text-center text-2xl font-bold">3DS MAX</h3>
-                <p class="text-base text-gray-600 text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus libero perferendis</p></div>
-                
+
+                <div class="space-y-2">
+                    <h3 class="text-center text-2xl font-bold">3DS MAX</h3>
+                    <p class="text-base text-gray-600 text-center">Lorem ipsum dolor sit amet consectetur adipisicing
+                        elit. Natus libero perferendis</p>
+                </div>
+
             </div>
             <!-- card 2 -->
-            <div class="w-[260px] h-[230px] bg-white shadow-in-box border rounded-3xl space-y-3 p-5 pt-2 cursor-pointer">
+            <div
+                class="w-[260px] h-[230px] bg-white shadow-in-box border rounded-3xl space-y-3 p-5 pt-2 cursor-pointer">
                 <div class="flex justify-center"><img class="w-[90px]" src="assets/autocad.png" alt=""></div>
-                <div class="space-y-2"><h3 class="text-center text-2xl font-bold">AUTOCAD</h3>
-                <p class="text-base text-gray-600 text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus libero perferendis</p></div>
-                
+                <div class="space-y-2">
+                    <h3 class="text-center text-2xl font-bold">AUTOCAD</h3>
+                    <p class="text-base text-gray-600 text-center">Lorem ipsum dolor sit amet consectetur adipisicing
+                        elit. Natus libero perferendis</p>
+                </div>
+
             </div>
             <!-- card 3 -->
-            <div class="w-[260px] h-[230px] bg-white shadow-in-box border rounded-3xl space-y-3 p-5 pt-6 cursor-pointer">
+            <div
+                class="w-[260px] h-[230px] bg-white shadow-in-box border rounded-3xl space-y-3 p-5 pt-6 cursor-pointer">
                 <div class="flex justify-center"><img class="w-[50px]" src="assets/lumion (2).png" alt=""></div>
-                <div class="space-y-2"><h3 class="text-center text-2xl font-bold">LUMION</h3>
-                <p class="text-base text-gray-600 text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus libero perferendis</p></div>
-                
+                <div class="space-y-2">
+                    <h3 class="text-center text-2xl font-bold">LUMION</h3>
+                    <p class="text-base text-gray-600 text-center">Lorem ipsum dolor sit amet consectetur adipisicing
+                        elit. Natus libero perferendis</p>
+                </div>
+
             </div>
-    
-    
-    
-         </div>
-         <div class="container-width flex justify-center gap-24 mt-11 cursor-pointer">
-    
+
+
+
+        </div>
+        <div class="container-width lg:flex justify-center gap-24 mt-4 space-y-4">
+
             <!-- card 4 -->
-            <div class="w-[260px] h-[230px] bg-white shadow-in-box border rounded-3xl space-y-3 p-5 pt-6">
+            <div
+                class=" cursor-pointer w-[260px] h-[230px] bg-white shadow-in-box border rounded-3xl space-y-3 p-5 pt-6">
                 <div class="flex justify-center"><img class="w-[75px]" src="assets/sketchUp.png" alt=""></div>
-                <div class="space-y-2"><h3 class="text-center text-2xl font-bold">SKETCH UP</h3>
-                <p class="text-base text-gray-600 text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus libero perferendis</p></div>
-                
+                <div class="space-y-2">
+                    <h3 class="text-center text-2xl font-bold">SKETCH UP</h3>
+                    <p class="text-base text-gray-600 text-center">Lorem ipsum dolor sit amet consectetur adipisicing
+                        elit. Natus libero perferendis</p>
+                </div>
+
             </div>
             <!-- card 5 -->
-            <div class="w-[260px] h-[230px] bg-white shadow-in-box border rounded-3xl space-y-0 p-5 pt-2">
+            <div
+                class=" cursor-pointer w-[260px] h-[230px] bg-white shadow-in-box border rounded-3xl space-y-0 p-5 pt-2">
                 <div class="flex justify-center"><img class="w-[90px]" src="assets/photoshop.png" alt=""></div>
-                <div class="space-y-2"><h3 class="text-center text-2xl font-bold">PHOTOSHOP</h3>
-                <p class="text-base text-gray-600 text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus libero perferendis</p></div>
-                
+                <div class="space-y-2">
+                    <h3 class="text-center text-2xl font-bold">PHOTOSHOP</h3>
+                    <p class="text-base text-gray-600 text-center">Lorem ipsum dolor sit amet consectetur adipisicing
+                        elit. Natus libero perferendis</p>
+                </div>
+
             </div>
-    
-         </div>
-     </div>
+
+        </div>
+    </div>
 
 
-     <!-- projects -->
+    <!-- projects -->
 
     <div class="container-width">
         <h1 class="text-4xl font-bold text-center mt-32 mb-3 tracking-wider">PROJECTS</h1>
-        <p class="text-center text-gray-500 mb-7">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam fugiat,<br> facere magni ducimus cupiditate modi.</p>
+        <p class="text-center text-gray-500 mb-7">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam
+            fugiat,<br> facere magni ducimus cupiditate modi.</p>
 
-        <div class="flex justify-between  bg-white mb-7">
-            <div class="w-[350px] p-4 rounded-2xl shadow-xl">
+        <div class="lg:flex justify-between  bg-white mb-7">
+            <div class="lg:w-[32%] p-4 rounded-2xl shadow-xl">
                 <!-- img -->
-                <div class=""><img class="rounded-lg" src="assets/buildings/60a6581de05e7c00224fd7ed_optimized_1800_c1463x973-116x112.webp" alt=""></div>
+                <div class=""><img class="rounded-lg"
+                        src="assets/buildings/60a6581de05e7c00224fd7ed_optimized_1800_c1463x973-116x112.webp" alt="">
+                </div>
                 <!-- text -->
                 <div>
                     <div class="flex justify-between mt-2">
@@ -149,13 +194,45 @@
                     </div>
                     <div class="space-y-3">
                         <h3 class="font-semibold text-2xl pt-2">Luxury Villa</h3>
-                        <p class="text-gray-500">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio temporibus quia iste accusantium fugiat quisquam sunt obcaecati est eum velit?</p>
+                        <p class="text-gray-500">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio
+                            temporibus quia iste accusantium fugiat quisquam sunt obcaecati est eum velit?</p>
                     </div>
+                    <button onclick="my_modal_4.showModal()"
+                        class="btn  text-lg border-2 hover:bg-gradient-to-r from-purple-500 to-indigo-500 bg-white hover:text-white  hover:border-indigo-400 border-indigo-400 text-black mt-5">View
+                        Details</button>
+
+                    <dialog id="my_modal_4" class="modal">
+                        <div class="modal-box w-[100%] max-w-6xl bg-slate-100">
+                            <div class="modal-action mt-0">
+                                <form method="dialog">
+                                    <!-- if there is a button, it will close the modal -->
+                                    <button class="btn">✕</button>
+                                </form>
+                            </div>
+                            <img class="mt-5 rounded-3xl"
+                                src="assets/buildings/60a6581de05e7c00224fd7ed_optimized_1800_c1463x973-116x112.webp"
+                                alt="">
+                            <p class="py-4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et, id molestias
+                                quis ullam, ex illum debitis consectetur, nam non quos neque. Temporibus veniam enim
+                                quis dolorum corporis ipsa ut quod praesentium magnam placeat voluptatum voluptatem
+                                necessitatibus iste a excepturi sequi officiis deleniti est reiciendis animi,
+                                voluptatibus aliquam omnis ducimus. Sint!Lorem, ipsum dolor sit amet consectetur
+                                adipisicing elit. Et, id molestias quis ullam, ex illum debitis consectetur, nam non
+                                quos neque. Temporibus veniam enim quis dolorum corporis ipsa ut quod praesentium magnam
+                                placeat voluptatum voluptatem necessitatibus iste a excepturi sequi officiis deleniti
+                                est reiciendis animi, voluptatibus aliquam omnis ducimus. Sint!Lorem, ipsum dolor sit
+                                amet consectetur adipisicing elit. Et, id molestias quis ullam, ex illum debitis
+                                consectetur,</p>
+                        </div>
+                    </dialog>
+
                 </div>
             </div>
-            <div class="w-[350px] p-4 rounded-2xl shadow-xl">
+            <div class="lg:w-[32%] p-4 rounded-2xl shadow-xl">
                 <!-- img -->
-                <div class=""><img class="rounded-lg w-full" src="assets/buildings/images (2).jpg" alt=""></div>
+                <div class=""><img class="rounded-lg w-full"
+                        src="assets/buildings/60a6577bf335930022c30157_optimized_1716_c1560x1040-140x29.webp" alt="">
+                </div>
                 <!-- text -->
                 <div>
                     <div class="flex justify-between mt-2">
@@ -164,13 +241,42 @@
                     </div>
                     <div class="space-y-3">
                         <h3 class="font-semibold text-2xl pt-2">Luxury Villa</h3>
-                        <p class="text-gray-500">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio temporibus quia iste accusantium fugiat quisquam sunt obcaecati est eum velit?</p>
+                        <p class="text-gray-500">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio
+                            temporibus quia iste accusantium fugiat quisquam sunt obcaecati est eum velit?</p>
                     </div>
+                    <button onclick="my_modal_42.showModal()"
+                        class="btn  text-lg border-2 hover:bg-gradient-to-r from-purple-500 to-indigo-500 bg-white hover:text-white  hover:border-indigo-400 border-indigo-400 text-black mt-5">View
+                        Details</button>
+                    <dialog id="my_modal_42" class="modal">
+                        <div class="modal-box w-[100%] max-w-6xl bg-slate-100">
+                            <div class="modal-action mt-0">
+                                <form method="dialog">
+                                    <!-- if there is a button, it will close the modal -->
+                                    <button class="btn">✕</button>
+                                </form>
+                            </div>
+                            <img class="mt-5 rounded-3xl"
+                                src="assets/buildings/60a6577bf335930022c30157_optimized_1716_c1560x1040-140x29.webp"
+                                alt="">
+                            <p class="py-4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et, id molestias
+                                quis ullam, ex illum debitis consectetur, nam non quos neque. Temporibus veniam enim
+                                quis dolorum corporis ipsa ut quod praesentium magnam placeat voluptatum voluptatem
+                                necessitatibus iste a excepturi sequi officiis deleniti est reiciendis animi,
+                                voluptatibus aliquam omnis ducimus. Sint!Lorem, ipsum dolor sit amet consectetur
+                                adipisicing elit. Et, id molestias quis ullam, ex illum debitis consectetur, nam non
+                                quos neque. Temporibus veniam enim quis dolorum corporis ipsa ut quod praesentium magnam
+                                placeat voluptatum voluptatem necessitatibus iste a excepturi sequi officiis deleniti
+                                est reiciendis animi, voluptatibus aliquam omnis ducimus. Sint!Lorem, ipsum dolor sit
+                                amet consectetur adipisicing elit. Et, id molestias quis ullam, ex illum debitis
+                                consectetur,</p>
+                        </div>
+                    </dialog>
                 </div>
             </div>
-            <div class="w-[350px] p-4 rounded-2xl shadow-xl">
+            <div class="lg:w-[32%] p-4 rounded-2xl shadow-xl">
                 <!-- img -->
-                <div class=""><img class="rounded-lg" src="assets/buildings/60a657ac33b87f0021874363_optimized_1560_c1560x1040-0x0.webp" alt=""></div>
+                <div class=""><img class="rounded-lg"
+                        src="assets/buildings/60a657ac33b87f0021874363_optimized_1560_c1560x1040-0x0.webp" alt=""></div>
                 <!-- text -->
                 <div>
                     <div class="flex justify-between mt-2">
@@ -179,19 +285,210 @@
                     </div>
                     <div class="space-y-3">
                         <h3 class="font-semibold text-2xl pt-2">Luxury Villa</h3>
-                        <p class="text-gray-500">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio temporibus quia iste accusantium fugiat quisquam sunt obcaecati est eum velit?</p>
+                        <p class="text-gray-500">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio
+                            temporibus quia iste accusantium fugiat quisquam sunt obcaecati est eum velit?</p>
                     </div>
                 </div>
+                <button onclick="my_modal_43.showModal()"
+                        class="btn  text-lg border-2 hover:bg-gradient-to-r from-purple-500 to-indigo-500 bg-white hover:text-white  hover:border-indigo-400 border-indigo-400 text-black mt-5">View
+                        Details</button>
+                    <dialog id="my_modal_43" class="modal">
+                        <div class="modal-box w-[100%] max-w-6xl bg-slate-100">
+                            <div class="modal-action mt-0">
+                                <form method="dialog">
+                                    <!-- if there is a button, it will close the modal -->
+                                    <button class="btn">✕</button>
+                                </form>
+                            </div>
+                            <img class="mt-5 rounded-3xl"
+                                src="assets/buildings/60a657ac33b87f0021874363_optimized_1560_c1560x1040-0x0.webp"
+                                alt="">
+                            <p class="py-4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et, id molestias
+                                quis ullam, ex illum debitis consectetur, nam non quos neque. Temporibus veniam enim
+                                quis dolorum corporis ipsa ut quod praesentium magnam placeat voluptatum voluptatem
+                                necessitatibus iste a excepturi sequi officiis deleniti est reiciendis animi,
+                                voluptatibus aliquam omnis ducimus. Sint!Lorem, ipsum dolor sit amet consectetur
+                                adipisicing elit. Et, id molestias quis ullam, ex illum debitis consectetur, nam non
+                                quos neque. Temporibus veniam enim quis dolorum corporis ipsa ut quod praesentium magnam
+                                placeat voluptatum voluptatem necessitatibus iste a excepturi sequi officiis deleniti
+                                est reiciendis animi, voluptatibus aliquam omnis ducimus. Sint!Lorem, ipsum dolor sit
+                                amet consectetur adipisicing elit. Et, id molestias quis ullam, ex illum debitis
+                                consectetur,</p>
+                        </div>
+                    </dialog>
             </div>
-            
-            
+
+
         </div>
 
 
     </div>
 
+    <!-- setisfaction area -->
+    <p class="text-4xl font-bold text-center mt-32 mb-5 tracking-wider pb-12 uppercase">why connect with me?</p>
 
-    
-    
+    <div class="lg:flex container-width">
+        <div class="lg:w-[55%] lg:h-[600px] border-2 border-dashed  p-5 rounded-3xl"><img class="lg:w-full lg:h-full rounded-3xl"
+                src="assets/buildings/images (5).jpg" alt=""></div>
+        <div class="lg:w-[45%] p-5 space-y-5 flex flex-col justify-center">
+            <h1 class="font-bold text-5xl bg-gradient-to-r from-purple-500 to-indigo-800 bg-clip-text text-transparent">
+                Your 100% setisfaction is my responsibility</h1>
+            <p class="text-gray-500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, velit. Lorem
+                ipsum dolor sit amet consectetur adipisicing elit. Cumque, explicabo. Lorem ipsum dolor sit amet
+                consectetur adipisicing elit. Accusantium, velit. Lorem ipsum dolor sit amet consectetur adipisicing
+                elit. Cumque, explicabo.</p>
+            <ul class="list-disc pl-14 font-semibold text-lg">
+                <li>3D resndering</li>
+                <li>interion design</li>
+                <li>sketck up design</li>
+                <li>photoshop design</li>
+            </ul>
+            <p>Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.</p>
+            <button
+                class="btn  text-lg border-2 hover:bg-gradient-to-r from-purple-500 to-indigo-500 bg-white hover:text-white  hover:border-indigo-400 border-indigo-400 text-black">Contact
+                me</button>
+        </div>
+    </div>
+
+    <!-- FAQ section -->
+
+    <p class="text-4xl font-bold text-center mt-32 mb-5 tracking-wider pb-12 uppercase">some faq question</p>
+    <div class="w-[70%] m-auto mb-6">
+
+        <div class="join join-vertical w-full">
+            <div class="collapse collapse-arrow join-item border-base-300 border">
+                <input type="radio" name="my-accordion-4" checked="checked" />
+                <div class="collapse-title text-xl font-medium">Click to open this one and close others</div>
+                <div class="collapse-content">
+                    <p class="text-gray-500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae tempora odit
+                        eos explicabo nobis voluptatibus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi
+                        at quaerat in laborum, id optio.</p>
+                </div>
+            </div>
+            <div class="collapse collapse-arrow join-item border-base-300 border">
+                <input type="radio" name="my-accordion-4" />
+                <div class="collapse-title text-xl font-medium">Click to open this one and close others</div>
+                <div class="collapse-content">
+                    <p class="text-gray-500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae tempora odit
+                        eos explicabo nobis voluptatibus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi
+                        at quaerat in laborum, id optio.</p>
+                </div>
+            </div>
+            <div class="collapse collapse-arrow join-item border-base-300 border">
+                <input type="radio" name="my-accordion-4" />
+                <div class="collapse-title text-xl font-medium">Click to open this one and close others</div>
+                <div class="collapse-content">
+                    <p class="text-gray-500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae tempora odit
+                        eos explicabo nobis voluptatibus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi
+                        at quaerat in laborum, id optio.</p>
+                </div>
+            </div>
+            <div class="collapse collapse-arrow join-item border-base-300 border">
+                <input type="radio" name="my-accordion-4" />
+                <div class="collapse-title text-xl font-medium">Click to open this one and close others</div>
+                <div class="collapse-content">
+                    <p class="text-gray-500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae tempora odit
+                        eos explicabo nobis voluptatibus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi
+                        at quaerat in laborum, id optio.</p>
+                </div>
+            </div>
+            <div class="collapse collapse-arrow join-item border-base-300 border">
+                <input type="radio" name="my-accordion-4" />
+                <div class="collapse-title text-xl font-medium">Click to open this one and close others</div>
+                <div class="collapse-content">
+                    <p class="text-gray-500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae tempora odit
+                        eos explicabo nobis voluptatibus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi
+                        at quaerat in laborum, id optio.</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- gellary -->
+    <!-- try to add hover  -->
+    <!-- <p class="text-4xl font-bold text-center mt-32 mb-5 tracking-wider uppercase hidden lg:block">gellary section</p>
+    <p class="hidden lg:block text-center  pb-12">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi, voluptate numquam
+        iure alias quaerat tenetur.</p>
+
+    <div class="hidden lg:block grid grid-cols-4 grid-rows-12 border  h-[600px] container-width">
+        <div class="bg-slate-200 col-span-1 row-span-12">
+            <img class="w-full h-full" src="assets/buildings/images.jpg" alt="">
+        </div>
+       
+        <div class="bg-red-200 col-span-2 row-span-8">
+            <img class="w-full h-full" src="assets/buildings/5dd27cd48fa70c0021a196a3_optimized_1316_c1316x987-0x0.webp"
+                alt="">
+        </div>
+        <div class="bg-green-200 col-span-1 row-span-5">
+            <img class="w-full h-full"
+                src="assets/buildings/60a6577bf335930022c30157_optimized_1716_c1560x1040-140x29.webp" alt="">
+        </div>
+        <div class="bg-blue-200  col-span-1 row-span-3">
+            <img class="w-full h-full"
+                src="assets/buildings/60a657ac33b87f0021874363_optimized_1560_c1560x1040-0x0.webp" alt="">
+        </div>
+        <div class="bg-gray-200  col-span-3 row-span-4">
+            <img class="w-full h-full"
+                src="assets/buildings/60a6581de05e7c00224fd7ed_optimized_1800_c1463x973-116x112.webp" alt="">
+
+        </div>
+
+    </div> -->
+
+    <!-- footer area -->
+
+    <footer class=" bg-slate-100 lg:h-[400px] py-10 mt-20">
+
+        <div class="container-width h-full lg:flex  space-y-8">
+            <div class="lg:w-[30%] h-full">
+                <div class="flex flex-col h-full justify-center lg:items-start items-center space-y-4">
+
+                    <div
+                        class="text-5xl font-bold bg-gradient-to-r from-purple-500 to-indigo-800 bg-clip-text text-transparent">
+                        Faisal<span class="">.</span>A
+                    </div>
+                    <p class="text-gray-700 text-base font-normal lg:text-left text-center">Lorem ipsum dolor sit amet consectetur adipisicing
+                        elit.</p>
+                </div>
+            </div>
+            <div class="lg:w-[30%] h-full space-y-5 flex flex-col justify-center lg:items-start items-center">
+
+                <h5 class="font-bold text-3xl ">Contact Me</h5>
+                <div class="space-y-2">
+                    <p class="text-gray-700 text-base font-normal">Address: Dinajpur, Bangladesh</p>
+                    <p class="text-gray-700 text-base font-normal">phone number: 01751207128</p>
+                    <p class="text-gray-700 text-base font-normal">email: abskjd@gmail.com</p>
+                    <div class="space-x-2 lg:text-left text-center">
+                        <i class="fa-brands fa-facebook text-xl text-blue-600"></i>
+                        <i class="fa-brands fa-telegram text-xl text-blue-400"></i>
+                        <i class="fa-brands fa-whatsapp text-xl text-green-400"></i>
+                    </div>
+                </div>
+
+            </div>
+            <div class="lg:w-[40%] h-full">
+                <div>
+                    <form action="" class="space-y-3 flex flex-col lg:items-end items-center justify-center mt-6">
+
+                        <input class=" py-4 w-[80%] rounded-xl px-4 shadow-lg" placeholder="Enter Your Email"
+                            type="email" name="" id="">
+                        <textarea class="py-4 w-[80%] rounded-xl px-4 shadow-lg" placeholder="Write Your Message" id=""
+                            cols="50" rows="5"></textarea>
+                        <button
+                            class="btn  text-lg border-2 hover:bg-gradient-to-r from-purple-500 to-indigo-500 bg-white hover:text-white  hover:border-indigo-400 border-indigo-400 text-black">Contact
+                            Me</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
 </body>
+
 </html>
